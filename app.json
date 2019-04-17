@@ -1,7 +1,7 @@
 {
-  "name": "spoke",
+  "name": "Birddog",
   "description": "Mass peer to peer texting tool",
-  "repository":"https://github.com/moveonorg/spoke",
+  "repository":"https://github.com/accountablehq/Spoke/",
   "success_url":"/",
   "stack": "container",
   "env": {
