@@ -80,7 +80,7 @@ class Home extends React.Component {
             Thank you for signing up for Birddog!
           </div>
           <div>
-            If you were sent a link by somebody to start texting, ask that person to send you the link to join their organization. Then, come back here and start texting! If are you trying to create a new account with Birddog, click here: <a href='https://accountable.typeform.com/to/c5VG7m' </a> 
+            If you were sent a link by somebody to start texting, ask that person to send you the link to join their organization. Then, come back here and start texting! If are you trying to create a new account with Birddog, click here: https://accountable.typeform.com/to/c5VG7m
             
           </div>
         </div>
