@@ -55,7 +55,7 @@ class CreateOrganization extends React.Component {
     return (
       <div>
         <div className={css(styles.header)}>
-          Create your organization to get started.
+          Create your company to get started.
         </div>
         <div className={css(styles.form)}>
           <Paper style={{ padding: 20 }}>
@@ -73,8 +73,8 @@ class CreateOrganization extends React.Component {
               <Form.Field
                 {...dataTest('organization')}
                 name='name'
-                label='Your organization'
-                hintText='Bartlet Campaign'
+                label='Your company'
+                hintText='Real Estate Investment Inc.'
                 fullWidth
               />
               <Form.Button
@@ -97,7 +97,7 @@ class CreateOrganization extends React.Component {
     return (
       <div className={css(styles.container)}>
         <div className={css(styles.bigHeader)}>
-          Spoke
+          Birddog
         </div>
         <div className={css(styles.formContainer)}>
           {this.props.inviteData.inviteByHash && this.props.inviteData.inviteByHash[0].isValid ? this.renderForm() : this.renderInvalid()}
