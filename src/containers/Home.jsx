@@ -80,47 +80,8 @@ class Home extends React.Component {
             Thank you for signing up for Birddog!
           </div>
           <div>
-            If you were sent a link by somebody to start texting, ask that person to send you the link to join their organization. Then, come back here and start texting! If are you trying to create a new account with Birddog, click here: 
-            <!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
-
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-  id="checkout-button-plan_Eu5B6PSvsJ6YzR"
-  role="link"
->
-  Checkout
-</button>
-
-<div id="error-message"></div>
-
-<script>
-  var stripe = Stripe('pk_live_2K9QoYqzZx4flhx9dVhyKqLe');
-
-  var checkoutButton = document.getElementById('checkout-button-plan_Eu5B6PSvsJ6YzR');
-  checkoutButton.addEventListener('click', function () {
-    // When the customer clicks on the button, redirect
-    // them to Checkout.
-    stripe.redirectToCheckout({
-      items: [{plan: 'plan_Eu5B6PSvsJ6YzR', quantity: 1}],
-
-      // Note that it is not guaranteed your customers will be redirected to this
-      // URL *100%* of the time, it's possible that they could e.g. close the
-      // tab between form submission and the redirect.
-      successUrl: 'https://birddoghq.com/success',
-      cancelUrl: 'https://birddoghq.com/canceled',
-    })
-    .then(function (result) {
-      if (result.error) {
-        // If `redirectToCheckout` fails due to a browser or network
-        // error, display the localized error message to your customer.
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
-    });
-  });
-</script>
+            If you were sent a link by somebody to start texting, ask that person to send you the link to join their organization. Then, come back here and start texting! If are you trying to create a new account with Birddog, click here: href="https://accountable.typeform.com/to/c5VG7m" 
+            
           </div>
         </div>
       )
